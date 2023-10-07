@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ReactNativeUI",
-    "slug": "ReactNativeUI",
+    "name": "travel",
+    "slug": "travel",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -21,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.codeirawan.ReactNativeUI"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dfc8000d-00e5-4556-893d-0e47b100ee05"
+      }
     }
   }
 }
